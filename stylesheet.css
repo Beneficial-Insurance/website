@@ -47,13 +47,14 @@ ul {
 li {
 	float: left;
 }
-li a {
+.navbar li a {
 	display: block;
 	color: #bf0000;
 	text-align: center;
 	padding: 14px 14px 14px 14px;
 	text-decoration: none;
 	font: georgia, sans-serif;
+	font-size: 24px;
 }
 /* Change the link color to #111 (black) on hover */
 
@@ -61,6 +62,14 @@ li a:hover {
 	background-color: #111;
 }
 p {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 2px 5px #333;
+	max-width: 60%;
+	padding: 2px 2px 2px 2px;
+}
+ul {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
@@ -112,4 +121,23 @@ footer {
 	width: 100%;
 	background-color: #333;
 	text-align: center;
+	border: 10px 0px 10px 0px;
+}
+footer li a {
+	display: inline;
+	color: #bf0000;
+	text-align: center;
+	padding: 0px 10px 10px 10px;
+	text-decoration: none;
+	font: georgia, sans-serif;
+	max-width: 60%;
+}
+li a {
+	display: block;
+	color: #bf0000;
+	text-align: center;
+	padding: 14px 14px 14px 14px;
+	text-decoration: none;
+	font: georgia, sans-serif;
+	font-size: 14px;
 }
